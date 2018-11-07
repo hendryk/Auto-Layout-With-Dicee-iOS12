@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		633647151B8C734900FF45E2 /* Dicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633647151B8C734900FF45E2 /* Kasyno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kasyno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633647191B8C734900FF45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6336471A1B8C734900FF45E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6336471C1B8C734900FF45E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		633647161B8C734900FF45E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				633647151B8C734900FF45E2 /* Dicee.app */,
+				633647151B8C734900FF45E2 /* Kasyno.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		633647141B8C734900FF45E2 /* Dicee */ = {
+		633647141B8C734900FF45E2 /* Kasyno */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 633647341B8C734900FF45E2 /* Build configuration list for PBXNativeTarget "Dicee" */;
+			buildConfigurationList = 633647341B8C734900FF45E2 /* Build configuration list for PBXNativeTarget "Kasyno" */;
 			buildPhases = (
 				633647111B8C734900FF45E2 /* Sources */,
 				633647121B8C734900FF45E2 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = Dicee;
+			name = Kasyno;
 			productName = Dicee;
-			productReference = 633647151B8C734900FF45E2 /* Dicee.app */;
+			productReference = 633647151B8C734900FF45E2 /* Kasyno.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,8 +111,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 633647101B8C734900FF45E2 /* Build configuration list for PBXProject "Dicee" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 633647101B8C734900FF45E2 /* Build configuration list for PBXProject "Kasyno" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				633647141B8C734900FF45E2 /* Dicee */,
+				633647141B8C734900FF45E2 /* Kasyno */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +273,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -282,10 +283,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VKUPVHS6JM;
 				INFOPLIST_FILE = Dicee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YourName.Dicee;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krzyzakov.kasyno;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;
@@ -297,10 +302,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VKUPVHS6JM;
 				INFOPLIST_FILE = Dicee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YourName.Dicee;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krzyzakov.kasyno;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;
@@ -311,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		633647101B8C734900FF45E2 /* Build configuration list for PBXProject "Dicee" */ = {
+		633647101B8C734900FF45E2 /* Build configuration list for PBXProject "Kasyno" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				633647321B8C734900FF45E2 /* Debug */,
@@ -320,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		633647341B8C734900FF45E2 /* Build configuration list for PBXNativeTarget "Dicee" */ = {
+		633647341B8C734900FF45E2 /* Build configuration list for PBXNativeTarget "Kasyno" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				633647351B8C734900FF45E2 /* Debug */,
